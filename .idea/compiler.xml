@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="center-common" />
+        <module name="center-pre-api" />
+        <module name="center-pre-dao" />
+        <module name="center-pre-interface" />
+        <module name="center-role-permission-api" />
+        <module name="center-role-permission-dao" />
+        <module name="center-role-permission-entity" />
+        <module name="center-role-permission-service" />
+        <module name="center-user-api" />
+        <module name="center-user-dao" />
+        <module name="center-user-entity" />
+        <module name="center-user-service" />
+        <module name="fund_code_generator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="center-common" target="1.8" />
+      <module name="center-parent" target="1.5" />
+      <module name="center-pre" target="1.5" />
+      <module name="center-pre-api" target="1.8" />
+      <module name="center-pre-dao" target="1.8" />
+      <module name="center-pre-interface" target="1.8" />
+      <module name="center-role-permission" target="1.5" />
+      <module name="center-role-permission-api" target="1.8" />
+      <module name="center-role-permission-dao" target="1.8" />
+      <module name="center-role-permission-entity" target="1.8" />
+      <module name="center-role-permission-service" target="1.8" />
+      <module name="center-user" target="1.5" />
+      <module name="center-user-api" target="1.8" />
+      <module name="center-user-dao" target="1.8" />
+      <module name="center-user-entity" target="1.8" />
+      <module name="center-user-service" target="1.8" />
+      <module name="fund_code_generator" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

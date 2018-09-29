@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/center-common.iml" filepath="$PROJECT_DIR$/center-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../center-parent/center-parent.iml" filepath="$PROJECT_DIR$/../center-parent/center-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../center-pre/center-pre.iml" filepath="$PROJECT_DIR$/../center-pre/center-pre.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../center-pre/center-pre-api/center-pre-api.iml" filepath="$PROJECT_DIR$/../center-pre/center-pre-api/center-pre-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../center-pre/center-pre-dao/center-pre-dao.iml" filepath="$PROJECT_DIR$/../center-pre/center-pre-dao/center-pre-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../center-pre/center-pre-interface/center-pre-interface.iml" filepath="$PROJECT_DIR$/../center-pre/center-pre-interface/center-pre-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../center-role-permission/center-role-permission.iml" filepath="$PROJECT_DIR$/../center-role-permission/center-role-permission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../center-role-permission/center-role-permission-api/center-role-permission-api.iml" filepath="$PROJECT_DIR$/../center-role-permission/center-role-permission-api/center-role-permission-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../center-role-permission/center-role-permission-dao/center-role-permission-dao.iml" filepath="$PROJECT_DIR$/../center-role-permission/center-role-permission-dao/center-role-permission-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../center-role-permission/center-role-permission-entity/center-role-permission-entity.iml" filepath="$PROJECT_DIR$/../center-role-permission/center-role-permission-entity/center-role-permission-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../center-role-permission/center-role-permission-service/center-role-permission-service.iml" filepath="$PROJECT_DIR$/../center-role-permission/center-role-permission-service/center-role-permission-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../center-user/center-user.iml" filepath="$PROJECT_DIR$/../center-user/center-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../center-user/center-user-api/center-user-api.iml" filepath="$PROJECT_DIR$/../center-user/center-user-api/center-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../center-user/center-user-dao/center-user-dao.iml" filepath="$PROJECT_DIR$/../center-user/center-user-dao/center-user-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../center-user/center-user-entity/center-user-entity.iml" filepath="$PROJECT_DIR$/../center-user/center-user-entity/center-user-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../center-user/center-user-service/center-user-service.iml" filepath="$PROJECT_DIR$/../center-user/center-user-service/center-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../fund_code_generator/fund_code_generator.iml" filepath="$PROJECT_DIR$/../fund_code_generator/fund_code_generator.iml" />
+    </modules>
+  </component>
+</project>

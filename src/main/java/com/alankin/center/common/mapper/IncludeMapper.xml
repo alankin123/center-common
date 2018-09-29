@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.alankin.center.common.mapper.IncludeMapper">
+
+	
+	<sql id="authCondition">
+		<if test="authCode!=null and authCode!=''"> AND f_auth_code like CONCAT(#{authCode,jdbcType=VARCHAR},'%') </if>
+	</sql>
+	
+	<sql id="authCondition_req">
+		<if test="req.authCode!=null and req.authCode!=''"> AND f_auth_code like CONCAT(#{req.authCode,jdbcType=VARCHAR},'%') </if>
+	</sql>
+	
+	<sql id="authWhere">
+		<if test="authCode!=null and authCode!=''"> where f_auth_code like CONCAT(#{authCode,jdbcType=VARCHAR},'%') </if>
+	</sql>
+	
+	<sql id="authStart_b">
+		<if test="authCode!=null and authCode!=''"> b.f_auth_code like CONCAT(#{authCode,jdbcType=VARCHAR},'%') AND </if>
+	</sql>
+	
+	<sql id="authColumn">
+		<if test="authCode!=null and authCode!=''">f_auth_code</if>
+	</sql>
+	
+	<sql id="authValues">
+		<if test="authCode!=null and authCode!=''">#{authCode,jdbcType=VARCHAR},</if>
+	</sql>
+	
+</mapper>
+
